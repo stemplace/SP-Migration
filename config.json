@@ -1,0 +1,16 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "test_mig",
+    "password": "test_mig",
+    "database": "test_mig"
+  },
+  "pg": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "pxls_testing",
+    "password": "pxls_testing",
+    "database": "pxls_testing"
+  }
+}

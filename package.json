@@ -1,0 +1,33 @@
+{
+  "name": "pxls-migration",
+  "version": "1.0.0",
+  "description": "Database migration utility to migrate Pxls from MySQL to PostgreSQL.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --max_old_space_size=8192 -r ts-node/register ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxlsspace/pxls-migration.git"
+  },
+  "author": "Andrew Black <andrewblack2656@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pxlsspace/pxls-migration/issues"
+  },
+  "homepage": "https://github.com/pxlsspace/pxls-migration#readme",
+  "dependencies": {
+    "inet": "0.0.3",
+    "ip6addr": "^0.2.3",
+    "mysql": "^2.17.1",
+    "node-cmd": "^3.0.0",
+    "pg": "^7.12.1",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.8",
+    "@types/pg": "^7.11.2"
+  }
+}
