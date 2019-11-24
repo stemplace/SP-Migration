@@ -12,5 +12,12 @@
     "user": "pxls_testing",
     "password": "pxls_testing",
     "database": "pxls_testing"
+  },
+  "pg2": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "pxls_testing2",
+    "password": "pxls_testing2",
+    "database": "pxls_testing2"
   }
 }
